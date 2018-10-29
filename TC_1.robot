@@ -4,6 +4,6 @@
 *** Variables ***
   
 *** Test cases ***
-  Example1    
+Example1    
     Run process  ifconfig –a eth0    
     
