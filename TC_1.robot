@@ -1,9 +1,6 @@
 *** Settings ***
-Library  Process   
+ Library  Process
 
-*** Variables ***
-  
 *** Test cases ***
-Example1    
-  Run Process  ifconfig –a eth0    
-    
+ Example
+   Run process  ifconfig  -a  eth0
