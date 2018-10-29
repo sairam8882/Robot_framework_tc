@@ -4,8 +4,10 @@ RUN apt update
 RUN apt  install net-tools -y
 RUN apt install python -y
 RUN apt install python-pip -y
-RUN apt install apache2 -y
-
+RUN apt install -y apache2 && && apt-get clean
 Run pip install robotframework
+
+
 EXPOSE 80
-CMD apache2 start
+
+CMD apachectl -D FOREGROUND
