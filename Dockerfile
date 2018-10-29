@@ -7,5 +7,5 @@ RUN apt install python-pip -y
 RUN apt install apache2 -y
 
 Run pip install robotframework
-
+EXPOSE 80
 CMD apache2 start
