@@ -4,4 +4,4 @@
  
 *** Test cases ***
   Example2       
-    Run process  netstat –tlpn | grep ‘:80’     
+    Run process  netstat â€“tlpn | grep â€˜:80â€™     
