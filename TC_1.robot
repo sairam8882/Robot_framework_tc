@@ -5,5 +5,5 @@
   
 *** Test cases ***
 Example1    
-    Run Process  ifconfig –a eth0    
+  Run Process  ifconfig –a eth0    
     
